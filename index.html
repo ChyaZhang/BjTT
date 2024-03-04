@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>100-Driver: A Large-scale, Diverse Dataset for Distracted Driver Classification</title>
+
+    <!-- Meta tags for search engines to crawl -->
+    <meta name="robots" content="index,follow">
+    <meta name="description"
+          content="Distracted driver classification (DDC) plays an important role in ensuring driving safety. Although many datasets are introduced to support the study of DDC, most of them are
+small in data size and are short of diversity in environmental variations. This largely limits the development of DDC since
+many practical problems such as the cross-modality setting
+cannot be fully studied. In this paper, we introduce 100-Driver,
+a large-scale, diverse posture-based distracted diver dataset,
+with more than 470K images taken by 4 cameras observing
+100 drivers over 79 hours from 5 vehicles. 100-Driver involves
+different types of variations that closely meet the real-world
+applications, including changes in the vehicle, person, camera
+view, lighting and modality. We provide a detailed analysis of 100-Driver and present 4 settings for investigating practical problems
+of DDC, including the traditional setting without domain shift
+and 3 challenging settings (i.e., cross-modality, cross-view, and cross-vehicle) with domain shifts. We conduct comprehensive
+experiments on these 4 settings with state-the-of-art techniques
+and show several insights to the future study of DDC. Our 100-Driver will be publicly available offering new opportunities to advance the development of DDC. "
+          .
+    >
+    <meta name="keywords" content="100-Driver: A Large-scale, Diverse Dataset for Distracted Driver Classification">
+    <link rel="author" href="https://scholar.google.com/citations?user=OQMtSKIAAAAJ&hl=en">
+
+    <!-- Fonts and stuff -->
+    <link href="./css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./project.css" media="screen">
+    <link rel="stylesheet" type="text/css" media="screen" href="./iconize.css">
+    <script async="" src="./prettify.js"></script>
+
+</head>
+
+<body>
+<div id="content">
+    <div id="content-inner">
+
+        <div class="section head">
+            <h1>100-Driver: A Large-scale, Diverse Dataset for Distracted Driver Classification</h1>
+            <div class="authors">
+                <a >Jing Wang</a><sup>1,2</sup>&nbsp;
+                <a >Wenjing Li</a><sup>1,2</sup>&nbsp;
+                <a >Fang Li</a><sup>1,2</sup>&nbsp;
+                <a >Jun Zhang</a><sup>1,2</sup>&nbsp;
+                <a >Zhongcheng Wu</a><sup>1,2</sup>&nbsp;
+<!--                <a href="https://scholar.google.com/citations?user=OQMtSKIAAAAJ&hl=en">Enver Sangineto</a><sup>1</sup>&nbsp;-->
+<!--                <a href="https://scholar.google.com/citations?user=OQMtSKIAAAAJ&hl=en">Stéphane Lathuilière</a><sup>2</sup>&nbsp;-->
+                <a href="https://zhunzhong.site/">Zhun Zhong</a><sup>3</sup>&nbsp;
+<!--                <a href="https://scholar.google.com/citations?user=OQMtSKIAAAAJ&hl=en">Moin Nabi</a><sup>3</sup>&nbsp;-->
+                <a >Nicu Sebe</a><sup>3</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+
+            <div class="affiliations">
+                1. Chinese Academy of Sciences, China <br>
+                2. University of Science and Technology of China, China <br>
+                3. University of Trento, Italy
+            </div>
+
+            <div class="affiliations">
+                wjli007@mail.ustc.edu.cn
+            </div>
+        </div>
+
+        <center><img src="./img/100driver-intro.png" border="0" width="95%"><br>
+            Left: The specification of the proposed 100-Driver for distracted driver classification. Right: The comparisons of different datasets.
+        </center>
+
+        <div class="section abstract">
+            <h2>Abstract</h2>
+            <br>
+            <p>
+                Distracted driver classification (DDC) plays an important role in ensuring driving safety. Although many datasets are introduced to support the study of DDC, most of them are
+small in data size and are short of diversity in environmental variations. This largely limits the development of DDC since
+many practical problems such as the cross-modality setting
+cannot be fully studied. In this paper, we introduce 100-Driver,
+a large-scale, diverse posture-based distracted diver dataset,
+with more than 470K images taken by 4 cameras observing
+100 drivers over 79 hours from 5 vehicles. 100-Driver involves
+different types of variations that closely meet the real-world
+applications, including changes in the vehicle, person, camera
+view, lighting and modality. We provide a detailed analysis of 100-Driver and present 4 settings for investigating practical problems
+of DDC, including the traditional setting without domain shift
+and 3 challenging settings (i.e., cross-modality, cross-view, and cross-vehicle) with domain shifts. We conduct comprehensive
+experiments on these 4 settings with state-the-of-art techniques
+and show several insights to the future study of DDC. Our 100-Driver will be publicly available offering new opportunities to advance the development of DDC.</p>
+
+        </div>
+
+
+        <div class="section method">
+            <h2>100-Driver Overview</h2>
+            <br>
+            <center><img src="./img/100driver-statics.png" border="0" width="95%"><br>
+                Statistics of 100-Driver dataset.
+            </center>
+        </div>
+
+        <!--=================Materials==========================-->
+        <div class="section materials" , id="materials">
+            <h2>Materials</h2>
+            <table width="80%" align="center" border=none cellspacing="0" cellpadding="30">
+                <tr>
+                    <td width="30%">
+                        <center>
+                            <a href="/img/TITS_100_Driver.pdf" target="_blank" class="imageLink"><img
+                                    src="./img/ncl_thumb.png" , width="75%"></a><br><br>
+                            <a href="/img/TITS_100_Driver.pdf" target="_blank">Paper</a>
+                        </center>
+                    </td>
+                    <td width="30%">
+                        <center>
+                            <a href="/img/100_Driver_Licensing.pdf" target="_blank" class="imageLink"><img
+                                    src="./img/googledrive.png", width="60%"></a><br><br>
+                            <a href="/img/100_Driver_Licensing.pdf" target="_blank">Dataset</a>
+                        </center>
+                    </td>
+                    <td width="30%" valign="middle">
+                        <center>
+                            <a href="https://github.com/Shenqishaonv/100-Driver-Source" target="_blank"
+                               class="imageLink"><img
+                                    src="./icon_github.png" , width="60%"></a><br><br>
+                            <a href="https://github.com/Shenqishaonv/100-Driver-Source" target="_blank">Codes</a>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+            NOTE: For downloading the data, please first fill in the licensing form and send us to get the link. <a href="/img/100_Driver_Licensing.pdf" target="_blank">[Licensing From]</a>
+        </div>
+
+
+        <br>
+
+        <div class="section citation">
+            <h2>Citation</h2>
+            <div class="section bibtex">
+      <pre>@InProceedings{100-Driver-2022,
+    author    = {Wang, Jing and Li, Wengjing and Li, Fang and Zhang, Jun and Wu, Zhongcheng and Zhong, Zhun and Sebe, Nicu},
+    title     = {100-Driver: A Large-scale, Diverse Dataset for Distracted Driver Classification},
+    booktitle = {Under Review},
+    year      = {2022}
+}</pre>
+            </div>
+        </div>
+
+
+</body>
+</html>
